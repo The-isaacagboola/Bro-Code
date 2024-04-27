@@ -1,0 +1,37 @@
+.section3 {
+  max-width: 948px;
+  margin: 0 auto;
+}
+.section3 .upperSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 948px;
+  margin-top: 150px;
+}
+.section3 .upperSec img {
+  width: 468px;
+  height: 700px;
+}
+.section3 .upperSec h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.section3 .upperSec .download {
+  width: 336px;
+}
+.section3 .upperSec .download p {
+  font-size: 18px;
+  color: hsla(0, 0%, 43%, 1);
+}
+.section3 .upperSec .download img {
+  width: 53px;
+  height: 53px;
+}
+
+.section3 .upperSec .download .flexCta {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  gap: 35px;
+}
