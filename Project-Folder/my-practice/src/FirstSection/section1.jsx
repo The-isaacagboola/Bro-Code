@@ -2,7 +2,7 @@ import { ArrowDown, Apple } from "react-bootstrap-icons";
 import styles from "./section1.module.css";
 function Section1() {
   return (
-    <section>
+    <section className={styles.section1}>
       <div className={styles.leftDiv}>
         <div className={styles.innerDiv}>
           <h2>Banking Should Be Easy.</h2>

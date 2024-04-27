@@ -1,4 +1,4 @@
-section {
+.section1 {
   display: flex;
   width: 100%;
   font-size: 20px;
@@ -9,7 +9,7 @@ section {
   overflow: hidden;
   margin-bottom: 140px;
 }
-section .leftDiv {
+.section1 .leftDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,16 +17,16 @@ section .leftDiv {
   height: 750px;
   margin-right: 110px;
 }
-section .leftDiv h2 {
+.section1 .leftDiv h2 {
   font-size: 52px;
   font-weight: 700;
   margin-bottom: 30px;
 }
-section .leftDiv p {
+.section1 .leftDiv p {
   color: hsla(233, 35%, 32%, 1);
 }
 
-section .leftDiv button {
+.section1 .leftDiv button {
   max-width: fit-content;
   font-weight: 500;
   padding: 25px 48px;
@@ -37,12 +37,12 @@ section .leftDiv button {
   margin-top: 65px;
   cursor: pointer;
 }
-section .leftDiv .innerDiv {
+.section1 .leftDiv .innerDiv {
   max-width: 440px;
   align-self: center;
 }
 /* RIGTH DIV */
-section .rightDiv {
+.section1 .rightDiv {
   background-color: var(--clr-blue-primary);
   position: relative;
   display: flex;
@@ -50,7 +50,7 @@ section .rightDiv {
   justify-content: center;
   width: 50%;
 }
-section .rightDiv .firstDiv {
+.section1 .rightDiv .firstDiv {
   color: var(--clr-text-white);
   width: 148px;
   height: 192px;
@@ -67,8 +67,8 @@ section .rightDiv .firstDiv {
   top: 70px;
   left: 93px;
 }
-section .rightDiv .firstDiv .arrowDownBox,
-section .rightDiv .middleDiv .arrowDownBox {
+.section1 .rightDiv .firstDiv .arrowDownBox,
+.section1 .rightDiv .middleDiv .arrowDownBox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -78,20 +78,20 @@ section .rightDiv .middleDiv .arrowDownBox {
   border-radius: 20px;
   margin-right: 10px;
 }
-section .rightDiv .firstDiv,
-section .rightDiv .middleDiv,
-section .rightDiv .lastDiv {
+.section1 .rightDiv .firstDiv,
+.section1 .rightDiv .middleDiv,
+.section1 .rightDiv .lastDiv {
   display: flex;
   flex-direction: column;
   color: var(--clr-text-white);
 }
-section .rightDiv .firstDiv > div:first-child,
-section .rightDiv .middleDiv > div:first-child,
-section .rightDiv .lastDiv > div:first-child {
+.section1 .rightDiv .firstDiv > div:first-child,
+.section1 .rightDiv .middleDiv > div:first-child,
+.section1 .rightDiv .lastDiv > div:first-child {
   display: flex;
 }
 
-section .rightDiv .secondDiv {
+.section1 .rightDiv .secondDiv {
   display: flex;
   width: 251px;
   height: 64px;
@@ -106,7 +106,7 @@ section .rightDiv .secondDiv {
   justify-content: space-between;
   align-items: center;
 }
-section .rightDiv .appleDiv {
+.section1 .rightDiv .appleDiv {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -117,16 +117,16 @@ section .rightDiv .appleDiv {
   box-shadow: 0px 14.71px 36.78px 0px hsla(0, 0%, 0%, 0.06);
   z-index: 1;
 }
-section .rightDiv .secondDiv > div {
+.section1 .rightDiv .secondDiv > div {
   display: flex;
   align-items: center;
 }
-section .rightDiv .secondDiv p {
+.section1 .rightDiv .secondDiv p {
   color: hsla(0, 0%, 60%, 1);
   font-size: 11px;
 }
 
-section .rightDiv .middleDiv {
+.section1 .rightDiv .middleDiv {
   width: 230px;
   height: 300px;
   align-self: center;
@@ -137,7 +137,7 @@ section .rightDiv .middleDiv {
   border-radius: 18px;
   z-index: 5;
 }
-section .rightDiv .middleDiv .arrowDownBox {
+.section1 .rightDiv .middleDiv .arrowDownBox {
   width: 60px;
   height: 60px;
   background-color: hsla(0, 0%, 100%, 0.2);
@@ -145,7 +145,7 @@ section .rightDiv .middleDiv .arrowDownBox {
   z-index: 3;
 }
 
-section .rightDiv .fourthDiv {
+.section1 .rightDiv .fourthDiv {
   width: 238px;
   height: 198px;
   position: absolute;
@@ -153,7 +153,7 @@ section .rightDiv .fourthDiv {
   bottom: 96px;
   z-index: 5;
 }
-section .rightDiv .lastDiv {
+.section1 .rightDiv .lastDiv {
   width: 170px;
   height: 215px;
   position: absolute;
