@@ -9,7 +9,7 @@ function Section3() {
         <img src="src/assets/Phone1.png" alt="phone image" />
         <div className={styles.download}>
           <h2>Download Mobile App</h2>
-          <p>
+          <p className={styles.details}>
             Download Tripay mobile banking app for IOS and android. It helps you
             banking quickly and more smartly.
           </p>
@@ -20,7 +20,7 @@ function Section3() {
               <p>App Store</p>
             </a>
           </div>
-          <div className={styles.flexCta}>
+          <div style={{ marginTop: "15px" }} className={styles.flexCta}>
             <img
               style={{ width: "68px", height: "58px" }}
               src={"src/assets/playStore.png"}
