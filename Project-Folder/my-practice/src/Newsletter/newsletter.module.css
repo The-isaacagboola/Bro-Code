@@ -1,0 +1,52 @@
+.centerDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 46px;
+}
+.newsLetter {
+  padding: 70px 106px;
+  background-color: var(--clr-blue-primary);
+  width: 800px;
+  border-radius: 20px;
+}
+
+.newsLetter h2 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 1);
+  margin-bottom: 8px;
+}
+.newsLetter p {
+  font-size: 16px;
+  color: hsla(0, 0%, 91%, 1);
+  margin-bottom: 26px;
+  max-width: 562px;
+  text-align: center;
+}
+.newsLetter div input {
+  font-size: 20px;
+  color: hsla(0, 0%, 60%, 1);
+  padding: 26px 46px;
+  outline: none;
+  border: none;
+}
+
+.newsLetter div button {
+  font-size: 20px;
+  color: hsla(0, 0%, 91%, 1);
+  padding: 22px 46px;
+  border: none;
+  border-radius: 16px;
+  background-color: hsla(233, 69%, 25%, 1);
+  cursor: pointer;
+}
+.newsLetter .inputBox {
+  display: flex;
+  padding: 3px;
+  justify-content: space-between;
+  border-radius: 16px;
+  background-color: hsla(0, 0%, 99%, 1);
+  overflow: hidden;
+}

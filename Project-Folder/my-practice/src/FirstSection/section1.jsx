@@ -7,8 +7,8 @@ function Section1() {
         <div className={styles.innerDiv}>
           <h2>Banking Should Be Easy.</h2>
           <p>
-            Financial transactions without interet using a mobile device such as
-            a smartphone or tablet with bluetooth.
+            Financial transactions without interest using a mobile device such
+            as a smartphone or tablet with bluetooth.
           </p>
           <button>Get Started</button>
         </div>
