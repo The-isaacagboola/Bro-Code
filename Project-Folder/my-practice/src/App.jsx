@@ -7,14 +7,16 @@ import Footer from "./Footer/Footer";
 
 function App() {
   return (
-    <>
-      <Nav />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Newsletter />
+    <div>
+      <div className="project-body">
+        <Nav />
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Newsletter />
+      </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
