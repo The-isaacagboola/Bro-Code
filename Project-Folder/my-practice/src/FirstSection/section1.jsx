@@ -187,8 +187,12 @@ function Section1() {
               <p style={{ fontSize: "14px", fontWeight: "500" }}>06/20</p>
             </div>
           </div>
-
-          <div>
+          <img
+            className={styles.flower}
+            src={"src/assets/Rectangle 12.png"}
+            alt="design component"
+          />
+          <div style={{ position: "relative" }}>
             <p style={{ fontSize: "14px", fontWeight: "400" }}>* * * * 5080</p>
             <p style={{ fontSize: "20px", fontWeight: "500" }}>2334.00</p>
           </div>
