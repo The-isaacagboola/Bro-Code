@@ -172,7 +172,7 @@ function Section1() {
             >
               <img
                 style={{ width: "21px", height: "14px" }}
-                src={"/src/assets/lyaLogo.png"}
+                src={"./assets/lyaLogo.png"}
                 alt="card logo"
               />
             </div>
