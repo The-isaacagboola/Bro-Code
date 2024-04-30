@@ -2,6 +2,7 @@ import InformationComponent from "./Information/Information";
 import DataComponent from "./Data/Data";
 import AddCards from "./Card/Cards";
 import styles from "./section2.module.css";
+import imgVector3 from "../assets/Vector 3371.png";
 
 function Section2() {
   return (
@@ -29,11 +30,7 @@ function Section2() {
               Sending money faster & easier with end to end encryption.
             </p>
           </div>
-          <img
-            className={styles.dots}
-            src={"src/assets/Vector 3371.png"}
-            alt="connecting dots"
-          />
+          <img className={styles.dots} src={imgVector3} alt="connecting dots" />
           <div>
             <AddCards />
             <h3>Add Cards</h3>

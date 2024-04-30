@@ -1,4 +1,5 @@
 import styles from "./data.module.css";
+import imgSurface from "../../assets/surface1.png";
 function DataComponent() {
   return (
     <div style={{ height: "162px" }}>
@@ -11,7 +12,7 @@ function DataComponent() {
 
         <div className={styles.topImage}>
           <div>
-            <img src={"src/assets/surface1.png"} alt="guaranteed image" />
+            <img src={imgSurface} alt="guaranteed image" />
           </div>
         </div>
       </div>

@@ -1,5 +1,9 @@
 import { ArrowDown, Apple } from "react-bootstrap-icons";
 import styles from "./section1.module.css";
+import imgGraph from "../assets/graph.png";
+import imgLya from "../assets/lyaLogo.png";
+import rec12 from "../assets/Rectangle 12.png";
+
 function Section1() {
   return (
     <section className={styles.section1}>
@@ -141,7 +145,7 @@ function Section1() {
         </div>
 
         <div className={styles.fourthDiv}>
-          <img src={"/src/assets/graph.png"} alt="income graph" />
+          <img src={imgGraph} alt="income graph" />
         </div>
 
         {/*last Guy  */}
@@ -172,7 +176,7 @@ function Section1() {
             >
               <img
                 style={{ width: "21px", height: "14px" }}
-                src={"./assets/lyaLogo.png"}
+                src={imgLya}
                 alt="card logo"
               />
             </div>
@@ -187,11 +191,7 @@ function Section1() {
               <p style={{ fontSize: "14px", fontWeight: "500" }}>06/20</p>
             </div>
           </div>
-          <img
-            className={styles.flower}
-            src={"src/assets/Rectangle 12.png"}
-            alt="design component"
-          />
+          <img className={styles.flower} src={rec12} alt="design component" />
           <div style={{ position: "relative" }}>
             <p style={{ fontSize: "14px", fontWeight: "400" }}>* * * * 5080</p>
             <p style={{ fontSize: "20px", fontWeight: "500" }}>2334.00</p>

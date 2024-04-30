@@ -1,4 +1,8 @@
 import styles from "./section3.module.css";
+import imgAppstore from "../assets/appStore.png";
+import imgPhone1 from "../assets/Phone1.png";
+import imgPlaystore from "../assets/playStore.png";
+import imgPhone2 from "../assets/Phone2.png";
 
 function Section3() {
   return (
@@ -6,7 +10,7 @@ function Section3() {
       <hr width="960px" />
 
       <div className={styles.upperSec}>
-        <img src="src/assets/Phone1.png" alt="phone image" />
+        <img src={imgPhone1} alt="phone image" />
         <div className={styles.download}>
           <h2>Download Mobile App</h2>
           <p className={styles.details}>
@@ -14,7 +18,7 @@ function Section3() {
             banking quickly and more smartly.
           </p>
           <div className={styles.flexCta}>
-            <img src={"src/assets/appStore.png"} alt="app Store" />
+            <img src={imgAppstore} alt="app Store" />
             <a href="">
               {" "}
               <p>App Store</p>
@@ -23,7 +27,7 @@ function Section3() {
           <div style={{ marginTop: "15px" }} className={styles.flexCta}>
             <img
               style={{ width: "68px", height: "58px" }}
-              src={"src/assets/playStore.png"}
+              src={imgPlaystore}
               alt="play Store"
             />
             <a href="">
@@ -43,7 +47,7 @@ function Section3() {
           </p>
           <button>Get Started</button>
         </div>
-        <img src={"src/assets/Phone2.png"} alt="Phone app image" />
+        <img src={imgPhone2} alt="Phone app image" />
       </div>
     </section>
   );

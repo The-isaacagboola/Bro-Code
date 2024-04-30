@@ -1,4 +1,5 @@
 import styles from "./information.module.css";
+import imgVector from "../../assets/Vector.png";
 
 function InformationComponent() {
   return (
@@ -11,7 +12,7 @@ function InformationComponent() {
       </div>
       <div className={styles.compDiv}>
         <div className={styles.imageDiv}>
-          <img src={"src/assets/Vector.png"} alt="computing image" />
+          <img src={imgVector} alt="computing image" />
         </div>
         <span></span>
       </div>

@@ -1,3 +1,7 @@
+import imgFacebook from "../assets/facebook.png";
+import imgX from "../assets/x.png";
+import imgLinkedin from "../assets/linkedIn.png";
+
 import styles from "./footer.module.css";
 function Footer() {
   return (
@@ -10,13 +14,13 @@ function Footer() {
         </p>
         <div className={styles.media}>
           <a href="">
-            <img src={"src/assets/facebook.png"} alt="facebook" />
+            <img src={imgFacebook} alt="facebook" />
           </a>
           <a href="">
-            <img src={"src/assets/x.png"} alt="twitter" />
+            <img src={imgX} alt="twitter" />
           </a>
           <a href="">
-            <img src={"src/assets/linkedIn.png"} alt="Linked in" />
+            <img src={imgLinkedin} alt="Linked in" />
           </a>
         </div>
         <div>Copyright &copy; {new Date().getFullYear()} Isaac Agboola</div>
